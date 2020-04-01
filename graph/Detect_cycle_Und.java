@@ -15,7 +15,7 @@ class DetectCycle
                 if(isCyclicUtil(list,i,-1,visited))
                     return true;
             }
-        }
+        
         return false;
     }
 
